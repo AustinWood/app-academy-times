@@ -6,7 +6,12 @@ html {
 }
 
 body {
-	// ...
+	margin: auto;
+	width: 80%;
+	font-family: $serif;
+	font-size: 12px;
+	background-color: pink; // REMOVE
+	// align-self: center;
 }
 
 button {
