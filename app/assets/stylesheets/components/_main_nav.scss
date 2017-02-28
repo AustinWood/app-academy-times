@@ -1,50 +1,68 @@
 .main-nav {
   font-family: $sans-serif;
-  font-size: 14px;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: green; // REMOVE
+  border-bottom: 1px solid $light-gray;
 }
 
-.left-nav > ul,
+.left-nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .right-nav > ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+
+// <LI>
+
+.left-nav > ul > li,
+.right-nav > ul > li {
+  border-radius: 6px;
 }
 
 .left-nav > ul > li {
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
-  // display: inline;
   margin: 10px;
-  padding: 8px;
-  background-color: $light-gray; // REMOVE
+  padding: 10px 16px;
+  background-color: $light-gray;
 }
 
 .right-nav > ul > li {
-
   margin: 5px;
-  padding: 8px;
-  background-color: gray; // REMOVE
+  padding: 10px 14px;
+  background-color: $light-blue;
+}
+
+.right-nav > ul > li:hover {
+  background-color: $blue;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  background-color: $light-gray;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $gray;
 }
+
+// SMALLER ELEMENTS
 
 .left-nav span {
-
+  font-size: 16px;
+  color: black;
 }
 
+.left-nav i {
+  padding-right: 6px;
+}
 
-.right-nav i {
-
+.right-nav span {
+  font-size: 14px;
+  color: $lightest-gray;
 }
