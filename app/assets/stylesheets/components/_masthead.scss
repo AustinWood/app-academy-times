@@ -62,7 +62,7 @@
 
 .masthead-links button {
 	background: none;
-	padding: 0px;
+	padding: 0 5px 0 0;
 	color: #000;
 	font-weight: normal;
 	border: none;
@@ -75,7 +75,7 @@
 .masthead-links a,
 .masthead-links button,
 .masthead-links time {
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .masthead-links i {
@@ -84,4 +84,8 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.language-nav li:first-of-type a {
+	font-weight: bold;
 }
