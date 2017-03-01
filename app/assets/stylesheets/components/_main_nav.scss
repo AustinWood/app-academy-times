@@ -44,6 +44,7 @@
 
 .right-nav > ul > li:last-of-type {
   background-color: $light-gray;
+  font-size: 16px;
 }
 
 .left-nav > ul > li:hover,
@@ -54,7 +55,7 @@
 // SMALLER ELEMENTS
 
 .left-nav span {
-  font-size: 16px;
+  font-size: 12px;
   color: black;
 }
 
@@ -63,6 +64,6 @@
 }
 
 .right-nav span {
-  font-size: 14px;
+  font-size: 11px;
   color: $lightest-gray;
 }

@@ -6,10 +6,11 @@
 	position: relative;
 }
 
+// LANGUAGES
+
 .language-nav {
 	position: absolute;
 	top: -15px;
-	left: calc(50% - (177.78px/2));
 	background: white;
 	border: 1px solid $light-gray;
 	border-bottom: none;
@@ -23,16 +24,25 @@
 	font-family: $sans-serif;
 	font-size: 10px;
 	color: $dark-gray;
+	text-decoration: none;
+}
+
+.language-nav a:hover {
+	text-decoration: underline;
 }
 
 .language-nav ul {
 	display: flex;
 }
 
+// LOGO
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
 }
+
+// BOTTOM LINKS
 
 .masthead-links {
 	display: flex;
@@ -44,6 +54,9 @@
 
 .masthead-links li {
 	margin-left: 10px;
+}
+
+.masthead-links li:not(:last-of-type) {
 	border-right: 1px solid $light-gray;
 }
 
@@ -60,7 +73,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
